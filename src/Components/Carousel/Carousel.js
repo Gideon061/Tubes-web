@@ -31,7 +31,6 @@ function Carousel() {
     centerPadding:0,
     nextArrow:<NextArrow />,
     PrevArrow:<PrevArrow />,
-    beforeChange: (current,next)=>setImageIndex(next),
     responsive:[
       {
         breakpoint: 1024,
