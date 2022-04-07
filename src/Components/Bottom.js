@@ -19,11 +19,11 @@ function Bottom() {
         <i className="fa fa-map-marker" style={myStyle}><a href="map.google.com" className="bottom-section-left text-white-color">Jl.Dago No.51, Bandung, Indonesia</a></i>
         <i className="fa fa-envelope-o" style={myStyle}><a href="facebook.com" className="bottom-section-left text-white-color">info@lionssteakhouse.com</a></i>
         </div>
-          <form class="column form-handler container small-screen-form">
+          <form className="column form-handler container small-screen-form">
             <input type="text" placeholder="Enter Name" required className="form-container text-white-color" />
             <input type="email" placeholder="Enter Email" required className="form-container text-white-color" />
             <textarea placeholder="Type your message" className="form-container text-white-color"></textarea>
-            <button class="custom-button-3 form-button">SEND MESSAGE</button>
+            <button className="custom-button-3 form-button">SEND MESSAGE</button>
             </form>
         </div>
       </div>

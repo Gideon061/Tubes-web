@@ -3,12 +3,12 @@ import Carousel from '../Carousel/Carousel'
 
 function Menu() {
   return (
-    <section class="menu primary-background-color primary-font">
-    <div class="container">
-      <div class="">
-      <div class="section-margin-center menu">
-        <h3 class="text-white-color">Today's Special</h3>
-        <h3 class="text-white-color secondary-font larger-text bottom-half-border">Fresh & Delicious</h3>
+    <section className="menu primary-background-color primary-font">
+    <div className="container">
+      <div className="">
+      <div className="section-margin-center menu">
+        <h3 className="text-white-color">Today's Special</h3>
+        <h3 className="text-white-color secondary-font larger-text bottom-half-border">Fresh & Delicious</h3>
               <Carousel/>
       </div>
       </div>

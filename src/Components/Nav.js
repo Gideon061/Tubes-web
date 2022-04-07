@@ -6,7 +6,7 @@ function Nav() {
     <header>
       <nav className="navigation text-primary-color primary-font">
         <div className="container row">
-          <img src={Image} className ='logo-handler'alt="" />
+          <img src={Image} className ='logo-handler'alt="gambar" />
           <ul className="nav-row">
             <li><a href="#home" className="text-primary-color">Home</a></li>
             <li><a href="#aboutUs" className="text-primary-color">About</a></li>
