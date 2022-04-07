@@ -12,7 +12,6 @@ function Hero() {
           <button className="custom-button-1 primary-font">Book Now</button>
         </div>
         <div className="hero-img">
-          {/* <img src={Image} alt="" className="hero-img" /> */}
         </div>
       </div>
     </section>

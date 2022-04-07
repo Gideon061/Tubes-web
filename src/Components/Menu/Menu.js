@@ -1,5 +1,4 @@
 import {React} from 'react'
-import {MenuData} from './MenuData'
 import Carousel from '../Carousel/Carousel'
 
 function Menu() {

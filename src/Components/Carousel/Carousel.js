@@ -6,7 +6,6 @@ import {MdChevronLeft,MdChevronRight} from 'react-icons/md'
 import Slider from 'react-slick'
 function Carousel() {
 
-  const [imageIndex,setImageIndex] = React.useState(0)
 
   const NextArrow =({onClick}) =>{
     return(
@@ -31,7 +30,6 @@ function Carousel() {
     centerPadding:0,
     nextArrow:<NextArrow />,
     PrevArrow:<PrevArrow />,
-    beforeChange: (current,next)=>setImageIndex(next),
     responsive:[
       {
         breakpoint: 1024,
@@ -64,7 +62,7 @@ function Carousel() {
     return(
       <div key ={index}className='card slider-card'>
         <div className='card-header'>
-          <img src={data.url}></img>
+          <img src={data.url} alt={data.name}></img>
         </div>
         <div className="card-body">
           <h4>{data.name}</h4>
