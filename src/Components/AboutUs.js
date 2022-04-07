@@ -12,7 +12,7 @@ function AboutUs() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perspiciatis nam vitae autem dicta? Enim quaerat mollitia quo. Cupiditate nihil quae ipsa dolor doloribus voluptatum reprehenderit incidunt minus enim, repudiandae impedit consectetur distinctio inventore, quibusdam corrupti iste beatae assumenda fugit sunt possimus esse sapiente autem illo perferendis! Est facilis delectus saepe at explicabo aliquid quod excepturi, quia laboriosam in fugiat.</p><br />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint soluta beatae iusto perspiciatis laboriosam? Sapiente illum recusandae suscipit laborum fugit perspiciatis dolores non eaque quis voluptatem maiores ducimus magni perferendis pariatur, quas ea impedit harum optio nemo? Dolorem veniam reiciendis quis consectetur officiis similique placeat non ut vero praesentium molestias unde adipisci expedita, voluptatibus recusandae magnam dolorum. Deleniti, velit!</p>
 
-          <button className='custom-button about-us-btn'><a href='learnMore.com'>Learn More</a></button>
+          <button className='custom-button about-us-btn'><a href='learnMore.com' className='text-primary-color'>Learn More</a></button>
           </div>
           </div>
           </div>
