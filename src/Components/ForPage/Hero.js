@@ -17,7 +17,7 @@ function Hero() {
           <button className="custom-button-1 primary-font" style={buttonStyle}>Book Now</button>
         </div>
         <div className="hero-img" >
-          <img src={Images} alt="title-image" />
+          <img src={Images} alt="title images for you" />
         </div>
       </div>
     </section>
