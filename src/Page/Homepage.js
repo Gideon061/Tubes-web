@@ -6,8 +6,9 @@ import ChefChoice from '../Components/ForPage/ChefChoice'
 import Footer from '../Components/ForPage/Footer'
 import Menu from '../Components/Menu/Menu'
 import Reservation from '../Components/ForPage/Reservation'
-import '../App.css'
 import Hero from '../Components/ForPage/Hero'
+import '../App.css'
+
 
 
 function Homepage() {
