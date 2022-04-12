@@ -7,7 +7,7 @@ import Footer from '../Components/ForPage/Footer'
 import Menu from '../Components/Menu/Menu'
 import Reservation from '../Components/ForPage/Reservation'
 import '../App.css'
-import Hero from '../Components/Hero'
+import Hero from '../Components/ForPage/Hero'
 
 
 function Homepage() {
