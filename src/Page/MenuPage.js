@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Image from '../Assets/images1.png'
 import { MenuPageData } from '../Data/MenuPageData'
 import { FaShoppingCart, FaPlus } from "react-icons/fa";
