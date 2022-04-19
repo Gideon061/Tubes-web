@@ -193,7 +193,6 @@ a {
 
 .navigation {
   padding: 0.5em;
-  background-color: var(--primary-black-color);
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -206,19 +205,23 @@ a {
   gap: 40px;
 }
 .hero-images {
-  background-color: var(--primary-black-color);
+  background-image: linear-gradient(to bottom, #1f1f1f, rgba(14, 14, 14, 0.52), #1f1f1f), url("./Assets/images1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   /* background-attachment: fixed; */
 }
 .hero {
-  padding: 6.85em;
+  padding: 17.5em;
   overflow: hidden;
+  text-align: center;
 }
 .hero-title {
   justify-content: center;
   align-self: center;
 }
 .hero-title-h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 
   color: #fff;
 }
@@ -236,8 +239,13 @@ a {
 .reservation {
   margin: 0 auto;
   border-radius: 20px;
+  align-self: center;
   padding: 3.75em;
   width: 80%;
+}
+
+.reservation-image {
+  background-color: var(--primary-black-color);
 }
 
 .about-us {
@@ -319,11 +327,11 @@ a {
 
 .salad-images {
   padding: 10em;
-  background-image: linear-gradient(to top, rgba(125, 126, 131, 0.52), rgba(66, 56, 57, 0.73)), url("./Assets/gambar-steak.jpg");
+  background-image: linear-gradient(to top, #1f1f1f, rgba(43, 43, 43, 0.52), #1f1f1f), url("./Assets/gambar-steak.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .box-choice {
@@ -387,9 +395,270 @@ a {
   padding: 1em;
 }
 
+/* Form Comps's css */
+
+.form-row {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.form-select {
+  width: 250px;
+  background-color: #222222;
+  font-size: 1.125rem;
+  border: 1px solid #fff;
+}
+
+.date-handler {
+  min-width: 550px;
+  width: 100%;
+  padding: 0.5em;
+  background-color: #222222;
+  border: 1px solid #fff;
+}
+
+.date-handler:focus {
+  outline: none;
+  border: none;
+}
+
+/* Reserve's css */
+
+.reserve-center {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.reserve-container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.reserve-header {
+  border-bottom: 1px solid var(--primary-color);
+  margin: 60px 0;
+}
+
+.timer-card {
+  padding: 1.125em 3em;
+  text-align: center;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.timer-card-invisible {
+  visibility: hidden;
+}
+
+.timer-card:focus {
+  background-color: var(--primary-white-color);
+}
+
+/* Reservation Data */
+
+.reservation-data-form {
+  padding: 2em;
+  border-radius: 5px;
+  border: 1px solid var(--primary-white-color);
+}
+
+.reservation-input-handler {
+  color: #fff;
+  width: 100%;
+  padding: 1em;
+  min-width: 125px;
+  background-color: #1f1f1f;
+  border: 1px solid #fff;
+}
+
+.reservation-data-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.reservation-textarea {
+  min-width: 250px;
+  min-height: 125px;
+  background-color: var(--primary-black-color);
+  border: 1px solid var(--primary-white-color);
+  color: #fff;
+}
+
+.reservation-data-image-handler {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.reservation-data-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+  text-align: center;
+}
+
+.reservation-data-header {
+  margin-top: 2em;
+}
+.area-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.area-card {
+  min-width: 175px;
+  padding: 0.5em 1.125em;
+  border: 1px solid var(--primary-white-color);
+  /* background-color: #2e2d2d; */
+  cursor: pointer;
+}
+
+/* Menu Page */
+
+.menu-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* border: 1px solid var(--primary-white-color); */
+}
+
+.menu-main-container {
+  border: 1px solid var(--primary-white-color);
+  width: 70%;
+  margin-top: 30px;
+}
+
+.menu-row {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-handler-menu-page {
+  align-self: center;
+}
+.margin-bottom {
+  margin-bottom: auto;
+}
+.menu-image-handler {
+  width: 20%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.fixed-button-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.custom-button-menu {
+  padding: 1.1em 1.3em;
+  font-size: 1.015rem;
+  width: 70%;
+  font-weight: 700;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  cursor: pointer;
+  outline: none;
+  border-radius: 100px;
+}
+
+.bottom-menu-container {
+  margin-top: 2em;
+}
+.add-cart {
+  margin-bottom: 10px;
+}
+
+.area-card:hover {
+  background-color: var(--primary-color);
+}
+
+/* Confirmation Order */
+
+.confirmation-image-handler {
+  width: 10%;
+  object-fit: cover;
+}
+
+.confirmation-main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.confirmation-border {
+  margin: 0 auto;
+  border: 1px solid var(--primary-white-color);
+}
+
+.order-content {
+  margin: 2em 0;
+  border-bottom: 1px solid var(--primary-white-color);
+}
+
+.order-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom-button-order {
+  padding: 1.1em 1.3em;
+  font-size: 1.015rem;
+  font-weight: 700;
+  background-color: var(--primary-color);
+  margin: 0 auto;
+  width: 70%;
+  border: 2px solid var(--primary-white-color);
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  cursor: pointer;
+  outline: none;
+  border-radius: 100px;
+}
+
+.order-button {
+  margin-bottom: 50px;
+}
+.order-row h2 {
+  font-weight: 900;
+}
+
+/* Payment */
+
+.payment-img-handler {
+  width: 50%;
+}
+
+.payment-input-custom {
+  width: 50%;
+  padding: 1.125em 3.5em;
+}
+
+.payment {
+  align-items: center;
+  margin: 0 auto;
+}
+
 @media (max-width: 900px) {
   html {
-    font-size: 10px;
+    font-size: 8px;
+  }
+
+  .navigation {
+    font-size: 1.125em;
+    padding: 1.25em;
   }
   .box-choice {
     padding: 2em;

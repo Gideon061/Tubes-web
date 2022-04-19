@@ -13,11 +13,11 @@ function Nav() {
             <li>
               <Link to="/" className="text-primary-color">Home</Link></li>
             <li>
-              <Link to='/aboutUs' className="text-primary-color">About</Link></li>
+              <a href='/#aboutUs' className="text-primary-color">About</a></li>
             <li>
-              <Link to="menu" className="text-primary-color">Menu</Link></li>
+              <Link to="/restaurant-menu" className="text-primary-color">Menu</Link></li>
             <li>
-              <Link to="contact" className="text-primary-color">Contact</Link></li>
+              <a href="/#contact" className="text-primary-color">Contact</a></li>
             <li>
               <Link to="contact" className="text-primary-color">Login</Link></li>
           </ul>

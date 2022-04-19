@@ -65,7 +65,7 @@ function Carousel() {
           <img src={data.url} alt={data.name}></img>
         </div>
         <div className="card-body">
-          <h4>{data.name}</h4>
+          <h4 className='tag'>{data.name}</h4>
           <p>{data.body}</p>
         </div>
       </div>
@@ -76,6 +76,7 @@ function Carousel() {
     <div className ='row-menu container'>
       <Slider {...settings}>
         {Data}
+        {console.log(Data)}
       </Slider>
       </div>
       </div>

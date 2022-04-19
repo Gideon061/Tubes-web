@@ -1,5 +1,4 @@
 import {React} from 'react'
-import {useState} from 'react'
 import AboutUs from '../Components/ForPage/AboutUs'
 import Bottom from '../Components/ForPage/Bottom'
 import ChefChoice from '../Components/ForPage/ChefChoice'
@@ -13,14 +12,14 @@ import '../App.css'
 
 function Homepage() {
 
-  const [Modal, setModal] = useState(false);
-  function toggleModal (){
-    setModal(prevModal => !prevModal)
-  }
+  // const [Modal, setModal] = useState(false);
+  // function toggleModal (){
+  //   setModal(prevModal => !prevModal)
+  // }
   return (
     <div>
       <Hero />
-      <Reservation toggleModal = {toggleModal} Modal = {Modal} />
+      <Reservation />
       <Menu />
       <AboutUs />
       <ChefChoice />

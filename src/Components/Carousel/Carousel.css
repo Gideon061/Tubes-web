@@ -25,7 +25,7 @@
 }
 
 .tag {
-  background: #cccccc;
+  background: #c33939;
   border-radius: 50px;
   font-size: 12px;
   margin: 0;
@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 .card-body p {
-  font-size: 13px;
+  font-size: 0.875rem;
   margin: 0 0 40px;
 }
 .user {
