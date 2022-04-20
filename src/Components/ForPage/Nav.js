@@ -18,8 +18,6 @@ function Nav() {
               <Link to="/restaurant-menu" className="text-primary-color">Menu</Link></li>
             <li>
               <a href="/#contact" className="text-primary-color">Contact</a></li>
-            <li>
-              <Link to="contact" className="text-primary-color">Login</Link></li>
           </ul>
         </div>
       </nav>

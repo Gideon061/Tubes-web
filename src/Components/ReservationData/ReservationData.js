@@ -24,7 +24,7 @@ function ReservationData() {
           <img src={Image} alt="gambar Makanan" className='reservation-data-image-handler' />
           <h2>Lions Steak House</h2>
           <FaUser /><p style={inlineDisplay}>2 Adults</p><br/>
-          <FaCalendarCheck /><p style={inlineDisplay}>Tue,Apr 19,2022</p><br/>
+          <FaCalendarCheck /><p style={inlineDisplay}>20 April 2022</p><br/>
           <FaClock /><p style={inlineDisplay}>12:00</p>
         </div>
         <div>

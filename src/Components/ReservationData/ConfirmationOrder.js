@@ -29,21 +29,21 @@ function ConfirmationOrder() {
                 <div className='menu-row'>
                   <img src={MenuPageData[0].url} className='confirmation-image-handler' alt="" />
                   <div className="menu-column">
-                    <h2>1x {MenuPageData[0].body}</h2>
+                    <h2>1x {MenuPageData[0].name}</h2>
                     <h5>1x {MenuPageData[0].price}k</h5>
                   </div>
                 </div>
                 <div className='menu-row'>
                   <img src={MenuPageData[1].url} className='confirmation-image-handler' alt="" />
                   <div className="menu-column">
-                    <h2>1x {MenuPageData[1].body}</h2>
+                    <h2>1x {MenuPageData[1].name}</h2>
                     <h5>1x {MenuPageData[1].price}k</h5>
                   </div>
                 </div>
                 <div className='menu-row'>
                   <img src={MenuPageData[2].url} className='confirmation-image-handler' alt="" />
                   <div className="menu-column">
-                    <h2>1x {MenuPageData[2].body}</h2>
+                    <h2>1x {MenuPageData[2].name}</h2>
                     <h5>1x {MenuPageData[2].price}k</h5>
                   </div>
                 </div>

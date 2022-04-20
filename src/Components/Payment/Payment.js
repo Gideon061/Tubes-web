@@ -7,7 +7,6 @@ function Payment() {
     <div className='reserve-container'>
       <div className='payment text-white-color primary-font'>
         <div>
-        <h1>Total Order: 123k </h1>
       <img src={Images} className='payment-img-handler' alt="QR Code" />
       <form >
         <label>Please enter the amount according to your order</label>

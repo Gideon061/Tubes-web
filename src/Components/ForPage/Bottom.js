@@ -15,7 +15,7 @@ function Bottom() {
         <div className="row container information">
         <div className="column container text-white-color bottom-handler">
         <h2>Contact Us</h2>
-        <p className="bottom-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae iusto cum aliquam quam repellat rem provident sunt aliquid mollitia. Voluptate cum ea architecto dolorum odio.</p>
+        <p className="bottom-text">We are serving the best quality of food in Indonesia, if you want dont find what you need,please fill our contact form</p>
         
         <i className="fa fa-phone" style={myStyle}><a href="web.whatsapp.com" className="primary-font bottom-section-left text-white-color">+6285314985945</a></i>
         <i className="fa fa-map-marker" style={myStyle}><a href="map.google.com" className="primary-font bottom-section-left text-white-color">Jl.Dago No.51, Bandung, Indonesia</a></i>

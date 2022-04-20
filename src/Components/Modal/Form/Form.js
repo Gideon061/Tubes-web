@@ -83,6 +83,7 @@ function Form() {
           onChange={(date)=>isDateToday(date)}
           dateFormat='dd/MM/yyyy'
           minDate={new Date()}
+          required
           // filterDate={date => date.getDay() != 6 && date.getDay()!=0}
           />
           </div>
@@ -95,7 +96,10 @@ function Form() {
         <div className='form-row'>
         {timerCard}
         </div>
-        <Link to="/reservation/data">
+        <Link to={{
+          pathname:"/reservation/data",
+          state:{selectedDate}
+        }} >
         <button className='custom-button form-button'>Next</button>
         </Link>
     </form>
