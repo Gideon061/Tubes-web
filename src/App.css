@@ -47,7 +47,7 @@ body {
   background-color: var(--primary-black-color);
 }
 .logo-handler {
-  width: 6%;
+  width: 10%;
 }
 
 a {
@@ -526,6 +526,12 @@ a {
   flex-direction: column;
   gap: 30px;
   /* border: 1px solid var(--primary-white-color); */
+}
+.menu-row {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* gap: 30px; */
 }
 
 .menu-main-container {

@@ -83,6 +83,7 @@ function Form() {
           onChange={(date)=>isDateToday(date)}
           dateFormat='dd/MM/yyyy'
           minDate={new Date()}
+          maxDate = {new Date("06-31-2022")}
           required
           // filterDate={date => date.getDay() != 6 && date.getDay()!=0}
           />

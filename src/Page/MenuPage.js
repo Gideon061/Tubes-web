@@ -131,7 +131,7 @@ function MenuPage(props) {
               </div>
               <div className='order-content'>
                 <p>Your Order</p>
-                <div className="menu-column">
+                <div className="menu-row">
                   {/* Code Here */}
                   {ModalPageElement}
                   </div>
@@ -141,7 +141,7 @@ function MenuPage(props) {
               <div>
                 <div className='order-row'>
                 <h3>Subtotal</h3>
-                <h3>{pricePageElement}</h3>
+                <h3>{pricePageElement},000</h3>
                 </div>
                 <div className='order-row'>
                 <h3>Delivery fee</h3>
